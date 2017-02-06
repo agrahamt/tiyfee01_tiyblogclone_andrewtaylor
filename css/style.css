@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box
+}
+hr {
+  border-left: 0px;
+}
+html {
+  font-size: 12px;
+  font-family: Arial; Verdana; sans-Serif;
+}
+.tweet {
+  border: 1px solid gray;
+  background: white;
+  opacity: .5%;
+  width: 230px;
+  position: fixed;
+  bottom:3px;
+  right: 0;
+  border-radius: 3%
+}
+.logo2 {
+  position: relative;
+  float: left;
+  width: 32px;
+  border-radius:5%;
+  padding: 0px 0px 2px 3px;
+}
+.crop {
+  overflow: hidden;
+}
+
+.crop img {
+
+    margin: 0 0 -62% 0;
+}
+pbox {
+  font-size: .8rem;
+  padding-left: 4px;
+  width: 100%
+}
+sidebar {
+  color: gray;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+h1 {
+  font-size: 1.8rem;
+  margin: 0px;
+}
+h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0px
+}
+p {
+  font-size: 1.4rem;
+}
+byline {
+  font-family: Serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: dimgray;
+}
+.p-b {
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+img {
+  max-width: 100%
+}
+.top {
+  font-size: 0 auto;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -15%;
+}
+.top img {
+  width: 100%;
+  height: 100%;
+margin: -17% 0 18% 0;
+}
+/*roundTIYLogo*/
+#roundlogo {
+  border: 4px solid white ;
+  border-radius: 90%;
+  position: absolute;
+  left: 12%;
+  bottom: -14%;
+  height: auto;
+  width: 10%
+}
+.bottom-block {
+  font-size: 0 auto;
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  padding-left:5%;
+  
+}
+.column{
+  font-size: 0 auto;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+#left-side {
+  width: 28%;
+}
+#right {
+  display: inline-block;
+  width: 60%;
+}
+.follow {
+  border-radius: 2px;
+  background: steelblue;
+  color: white;
+  font-style: bold;
+  padding: 4px;
+  margin: 0px 3px;
+  position: fixed;
+  right: 0;
+  bottom: 9px;
+}
